@@ -12,13 +12,13 @@ const orderSummary = (props) => {
     });
     return (
         <Aux>
-        <h3>Your Order</h3>
-        <p>Following Ingredients are Selected</p>
-        <ul>
-            {ingredientSummary}
-        </ul>
-        <p>Continue to Checkout?</p>
-    </Aux>
+            <h3>Your Order</h3>
+            <p>Following Ingredients are Selected</p>
+            <ul style={{listStyleType: 'none'}}>
+                {ingredientSummary}
+            </ul>
+            <p>Continue to Checkout?</p>
+        </Aux>
     )
 }
 
