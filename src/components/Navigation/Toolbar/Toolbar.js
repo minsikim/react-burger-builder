@@ -1,12 +1,16 @@
 import React from 'react';
-// import Aux from '../../hoc/Auxillary';
+
+import NavigationItems from '../NavigationItems/NavigationItems';
+import Logo from '../../Logo/Logo';
+
+import classes from './Toolbar.css'
 
 const toolbar = (props) => (
-    <header>
+    <header className={classes.Toolbar}>
         <div>MENU</div>
-        <div>LOGO</div>
+        <Logo />
         <nav>
-            ...
+            <NavigationItems />
         </nav>
     </header>
 );
