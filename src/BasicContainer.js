@@ -1,5 +1,5 @@
 import React, {Comoponent} from 'react';
-import Aux from '../../hoc/Aux';
+import Aux from '../../hoc/Auxillary';
 
 class Basic extends Component {
     render () {
