@@ -49,7 +49,7 @@ class BurgerBuilder extends Component {
     }
 
     backdropHandler = () => {
-        console.log('backdrop')
+        // console.log('backdrop')
         this.setState({purchasing: false});
     }
 
@@ -65,7 +65,7 @@ class BurgerBuilder extends Component {
         const oldPrice = this.state.totalPrice;
         const newPrice = oldPrice + priceAddition;
         this.setState({totalPrice: newPrice, ingredients: updatedIngredients});
-        console.log(updatedIngredients)
+        // console.log(updatedIngredients)
         this.updatePurchaseState(updatedIngredients);
     }
 
